@@ -18,6 +18,7 @@ body {
     width: 100%;
     max-width: 317px;
     margin: 0 auto;
+    margin-top: 1em;
     background-color: #23252C;
 }
 
@@ -29,7 +30,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2.6em;
 }
 
 .info-section img {
