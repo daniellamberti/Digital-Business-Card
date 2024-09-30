@@ -76,6 +76,7 @@ body {
     padding: 8px 25px;
     border-radius: 6px;
     gap: 0.6em;
+    cursor: pointer;
 }
 
 .email-info-btn p, .linkedin-info-btn p {
