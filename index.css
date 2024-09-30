@@ -1,0 +1,137 @@
+                    /* ------- Gral reset ------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+            /* ----- Body and Main container styles ----- */
+
+body {
+    background-color: #424141;
+    color: white;
+    font-family: inter, sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 317px;
+    margin: 0 auto;
+    background-color: #23252C;
+}
+
+                /* -------- Info section styles ----------- */
+
+.info-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.6em;
+}
+
+.info-section img {
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.info-section h1 {
+    font-size: 1.72rem;
+    font-weight: 700;
+    margin-top: 0.8em;
+    margin-bottom: 0.1em;;
+}
+
+.info-section h2 {
+    font-size: 0.88rem;
+    font-weight: 400;
+    color: #F3BF99;
+    margin-bottom: 0.5em;
+}
+
+.info-section p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-top: 0.6em;
+    margin-bottom: 1.6em;
+}
+
+.email-linkedin-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.email-info-btn, .linkedin-info-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 9em;
+    padding: 8px 25px;
+    border-radius: 6px;
+    gap: 0.6em;
+}
+
+.email-info-btn p, .linkedin-info-btn p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.email-info-btn {
+    color: #374151;
+    background-color: #FFFFFF;
+}
+
+.linkedin-info-btn {
+    color: #FFFFFF;
+    background-color: #5093E2;
+}
+
+.email-info-btn img, .linkedin-info-btn img {
+    margin: 0;
+}
+
+        /* ----------- About and Interest sections styles ----------- */
+
+.about-section, .interests-section {
+    width: 100%;
+    background-color: #1A1B21;
+}
+
+.about-section h2, .interests-section h2 {
+    font-size: 1.2rem;
+    margin: 0 2em 0.5em 1.8em;
+}
+
+.about-section p, .interests-section p {
+    font-size: 0.65rem;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0 2.2em 0.5em 3.6em;
+}
+
+.about-section {
+    padding-bottom: 1em;
+}
+
+.interests-section {
+    padding-bottom: 2.2em;
+}
+
+                /* -------- Footer section styles ------------ */
+
+.footer-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
